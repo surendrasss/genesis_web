@@ -126,8 +126,14 @@ a{
     background-image: url('/Images/Main.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: 30%
+    background-position: 30%;
+    transition: transform 0.2s; 
 } 
+
+.second:hover {
+    transform: scale(1.15);
+}
+
 
 /** Courses **/
 
@@ -156,9 +162,13 @@ a{
     background-size: 115%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    transition: transform .2s;
     
 }
 
+.Python:hover{
+    transform: scale(1.05);
+}
 .Python h2{
     background-color: white;
     padding: 1.5px;
@@ -173,7 +183,11 @@ a{
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: 30% 30%;
+    transition: transform .2s;
 
+}
+.fullstack:hover{
+    transform:scale(1.05);
 }
 .fullstack h2{
     background-color: white;
@@ -189,9 +203,13 @@ a{
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 60% 40%;
+    transition: transform 0.2s;
     
 }
 
+.ai:hover{
+    transform: scale(1.05)
+}
 .ai h2{
     background-color: white;
     padding: 1.5px;
